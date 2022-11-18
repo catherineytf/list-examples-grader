@@ -1,0 +1,15 @@
+TestListExamples.java:10: error: cannot find symbol
+class LongString implements StringChecker{
+                            ^
+  symbol: class StringChecker
+TestListExamples.java:26: error: cannot find symbol
+  StringChecker sc = new LongString();
+  ^
+  symbol:   class StringChecker
+  location: class TestListExamples
+TestListExamples.java:28: error: cannot find symbol
+  assertEquals(expected, ListExamples.filter(input, sc));
+                         ^
+  symbol:   variable ListExamples
+  location: class TestListExamples
+3 errors
