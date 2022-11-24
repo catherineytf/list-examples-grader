@@ -7,7 +7,10 @@ import java.util.*;
 import org.junit.*;
  
 
-class LongString implements StringChecker{
+
+public class TestListExamples {
+ // Write your grading tests here!
+ class LongString implements StringChecker{
   public boolean checkString(String s){
     if (s.length() > 5){
       return true;
@@ -17,8 +20,7 @@ class LongString implements StringChecker{
     }
   }
 }
-public class TestListExamples {
- // Write your grading tests here!
+
  @Test
  public void testFilter(){
   List<String> input = Arrays.asList("apple", "banana", "pear", "strawberry", "blackberry");
